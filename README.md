@@ -1,6 +1,6 @@
 # Python
 
-![Alt text](/home/penscola/Desktop/Project/alx-higher_level_programming/48a9fdbd67c84a328a9df9ec8d93b9ac2458ac37721d7d53e51a27fb2bdc5263.jpg)
+![Alt text]("/home/penscola/Desktop/Project/alx-higher_level_programming/python.jpg")
 
 ## Author’s disclaimer
 
