@@ -1,4 +1,4 @@
-![Alt text](0x01-python-if_else_loops_functions/code.png)
+![Alt text](https://github.com/penscola/alx-higher_level_programming/blob/master/0x01-python-if_else_loops_functions/code.png)
 
 
 ## Resources
