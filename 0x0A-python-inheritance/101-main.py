@@ -1,12 +1,16 @@
 #!/usr/bin/python3
-"""this is my module for add_attribute"""
+add_attribute = __import__('101-add_attribute').add_attribute
 
+class MyClass():
+    pass
 
-def add_attribute(obj, name, value):
-    """see if i can add attribute"""
-    if hasattr(obj, "__dict__"):
-        setattr(obj, name, value)
-    elif hasattr(obj, "__slots__") and name in obj.__slots__:
-        setattr(obj, name, value)
-    else:
-        raise TypeError('can\'t add new attribute')
+mc = MyClass()
+add_attribute(mc, "name", "John")
+print(mc.name)
+
+try:
+    a = "My String"
+    add_attribute(a, "name", "Bob")
+    print(a.name)
+except Exception as e:
+    print("[{}] {}".format(e.__class__.__name__, e))
