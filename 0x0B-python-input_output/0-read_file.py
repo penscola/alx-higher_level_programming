@@ -7,9 +7,9 @@ def read_file(filename=""):
         print(f.read(), end="")
 
 if __name__ == "__main__":
-    read_file("my_file_0.txt")
+    read_file("./tests/my_file_0.txt")
     print("")
-    read_file("my_file_1.txt")
+    read_file("./tests/my_file_0.txt")
     print("")
-    read_file("my_file_2.txt")
+    read_file("./tests/my_file_0.txt")
     print("")
